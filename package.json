@@ -1,19 +1,25 @@
 {
   "name": "stagync-storage-async-storage",
-  "version": "0.0.0",
-  "description": "Persistes dados ultilizando AsyncStorage",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Plugin for stagync to save data with AsyncStorage",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d lib"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sophiware/stagync-storage-async-storage.git"
-  },
-  "author": "",
+  "author": "Philippe Assis <assis@sophiware.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sophiware/stagync-storage-async-storage/issues"
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   },
-  "homepage": "https://github.com/sophiware/stagync-storage-async-storage#readme"
+  "dependencies": {
+    "react-native": "^0.55.4"
+  }
 }

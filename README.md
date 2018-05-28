@@ -1,2 +1,1 @@
-# stagync-storage-async-storage
-Persistes dados ultilizando AsyncStorage
+# stagync-storage-memory
