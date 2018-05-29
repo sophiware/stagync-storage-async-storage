@@ -1,6 +1,6 @@
 {
   "name": "stagync-storage-async-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Plugin for stagync to save data with AsyncStorage",
   "main": "lib/index.js",
   "scripts": {
