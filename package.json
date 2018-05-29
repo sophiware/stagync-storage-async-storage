@@ -18,8 +18,5 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1"
-  },
-  "dependencies": {
-    "react-native": "^0.55.4"
   }
 }
